@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+html{
+	font-size: 100%;
+}
+
+body{
+	font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "BIZ UDPGothic", Meiryo, "sans-serif";
+	line-height: 1.7;
+	color: #432;
+}
+
+a{
+	text-decoration: none;
+}
+
+img{
+	max-width: 100%;
+}
+
+.align-center{
+	text-align: center;
+}
+
+.align-left{
+	text-align: left;
+}
+
+.page-header{
+	padding-top: .5rem;
+}
+
+.logo{
+	width: 210px;
+}
+
+.page-title{
+	background-color: #404A72;
+	color: #ffffff;
+}
+
+.page-title .title{
+	max-width: 736px;
+	padding: 0.5rem 1.5rem;
+	margin: 0rem auto 0.5rem;
+}
+
+/*
+.page-title{
+	background-color: #404A72;
+	color: aliceblue;
+	padding: 0.5rem 1.5rem;
+	margin: 0rem auto 0rem;
+}
+
+.page-title .title{
+	max-width: 736px;	
+	padding: 0 0rem;
+	margin: 0rem auto 0rem;
+}
+*/
+
+.cover{
+	background-size: cover;
+	background-position: center bottom;
+	height: 480px;
+}
+
+.cover-home{
+/*	background-image: url("../images/ingame_screenshot.png") */
+	max-width: 736px;
+	padding: 0 1.5rem;
+	margin: 0rem auto 0rem;
+}
+
+.heading-large{
+	font-size: 1.5rem;
+	text-align: left;
+	margin-bottom: 0.5rem;
+}
+
+.navigation{
+	max-width: 736px;
+	padding: 0 1.5rem;
+	margin: 1rem auto 2rem;
+	text-align: right;
+}
+
+.main{
+	max-width: 736px;
+	padding: 0 1.5rem;
+	margin: 1rem auto 2rem;
+}
+
+.main p{
+	margin-bottom: 1rem;
+}
+
+.main ul{
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+.main ul ul{
+	margin-left: 2rem;
+}
+
+.btn{
+	display:inline-block;
+	font-size: 1.5rem;
+	background-color: #3362AB;
+	color: #fff;
+	border-radius: 8px;
+	padding: .75rem 1.5rem;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	transition: .5s;
+}
+
+.btn:hover{
+	background-color: #F18D1D;
+}
+
+.page-footer{
+	background-color: #404A72;
+	color: #ffffff;
+}
+
+.page-footer .copyright{
+	text-align: right;
+	max-width: 736px;
+	padding: 0.5rem 1.5rem;
+	margin: 1rem auto 0rem;
+}
+
+
+
+
+
+
+
+
+
